@@ -81,7 +81,7 @@
     text-align: center;
 }
 .main .logo{
-    color: #FFFFFF;
+    color: rgba(9, 77, 19, 1);
     font-size: 3em;
     font-weight: 300;
     position: relative;
@@ -96,7 +96,13 @@
 .main .content{
     position: relative;
     z-index: 4;
-    color: #ffffff;
+    color: rgba(9, 77, 19, 1);
+}
+.container{
+    background: #ffffffb8;
+    z-index: 9999999;
+    border: solid 8px;
+    padding: 3em 0;
 }
 form{
     margin: 0 auto !important;
