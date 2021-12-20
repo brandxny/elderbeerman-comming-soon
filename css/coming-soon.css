@@ -133,6 +133,9 @@ p.coming-soon{
     font-weight: bold;
     font-weight: 600;
 }
+.container{
+    font-size: 3vw;
+}
 @keyframes imageAnimation {
     0% {
       animation-timing-function: ease-in;
@@ -156,4 +159,7 @@ p.coming-soon{
 	.bx-break-on-desktop{
 		display: block;
 	}
+    .container{
+        font-size: 1em;
+    }
 }
