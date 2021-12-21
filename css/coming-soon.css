@@ -1,3 +1,7 @@
+img{
+    width: 100%;
+    max-width: 100%;
+}
 .crossfade > figure {
     animation: imageAnimation 30s linear infinite 0s;
     backface-visibility: hidden;
@@ -81,34 +85,23 @@
     text-align: center;
 }
 .main .logo{
-    color: rgba(9, 77, 19, 1);
+    color: #FFFFFF;
     font-size: 3em;
     font-weight: 300;
     position: relative;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
     z-index: 3;
 }
-.main .logo.cursive{
-    font-family: 'Grand Hotel',cursive;
-    font-size: 6.3em;
-    margin: 0 0 1em;
-}
 .main .content{
     position: relative;
     z-index: 4;
-    color: rgba(9, 77, 19, 1);
-}
-.container{
-    background: #ffffffb8;
-    z-index: 9999999;
-    border: solid 8px;
-    padding: 3em 0;
+    color: #ffffff;
 }
 form{
     margin: 0 auto !important;
 }
 p,h1{
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.3em;
     margin: 0;
     line-height: 1;
@@ -118,7 +111,7 @@ p,h1{
 }
 p.coming-soon,
 h1{
-    font-size: 3em;
+    font-size: 2em;
     margin: 0 0 0.4em;
 }
 h1{
@@ -133,8 +126,9 @@ p.coming-soon{
     font-weight: bold;
     font-weight: 600;
 }
-.container{
-    font-size: 3vw;
+.logo{
+    width: 73%;
+    margin: 0 auto; 
 }
 @keyframes imageAnimation {
     0% {
@@ -159,7 +153,11 @@ p.coming-soon{
 	.bx-break-on-desktop{
 		display: block;
 	}
-    .container{
-        font-size: 1em;
+    .klaviyo-form{
+        width: 53%;
+        margin: 1em auto 0;
+    }
+    .logo{
+        width: 43%;
     }
 }
